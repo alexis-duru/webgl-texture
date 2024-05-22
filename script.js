@@ -105,7 +105,7 @@ var fragment = `
   var img = new Image();
   img.onload = () => (texture.image = img);
   img.crossOrigin = "Anonymous";
-  img.src = "channel.webp";
+  img.src = "test.jpeg";
 
   var a1, a2;
   var imageAspect = _size[1] / _size[0];
